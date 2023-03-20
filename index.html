@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lanciné Keita</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <style type="text/css" media="all">
+        table, caption, tr, th, td{
+            border: 2px solid skyblue;
+            background-color: white;
+            color: #101010;
+        } 
+        .container-2{
+            margin-top: 25px;
+            display: flex;
+            text-align: center;
+            background-color: green;
+            justify-content: center;
+            justify-items: center;
+            color: white;
+            background: white;
+        }
+        caption{
+            font-size: 18px;
+            font-family: Arial bold;
+            letter-spacing: 2px;
+            color: #101010;
+        }
+        table{
+            background-color: #101010;
+        }
+        caption:hover{
+            background: yellow;
+            animation: .4s;
+            animation-duration: .5s;
+            fill-opacity: 10%;
+            font-size: 25px;
+            break-inside: black;
+            font-display: bold;
+            font-family: 30px;
+        }
+        th:hover{
+            background: green;
+            color: white;
+        }
+        td:hover{
+            color: white;
+            background: gold;
+        }
+        span{
+            color: red;
+        }
+        .ti-para{
+            margin-left: 25px;
+            display: inline-block;
+        }
+        h4{
+            color: black;
+        }
+        .box1{
+            display: flex;
+            justify-content: space-around;
+        }
+     </style>
+
+</head>
+<bod>
+<div class="container">
+        <nav>
+            <h2 class="logo"> <span>Personnal</span>Details</h2>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Nos services</a></li>
+                <li><a href="#">Expériences</a></li>
+                <li><a href="#">Nous Contacter</a></li>
+            </ul>
+            <a href="#" class="btn">S'inscrire</a>
+        </nav>
+        <div class="content">
+            <h4>Salut, Mon nom est</h4>
+            <h1>Lanciné <span>Keita</span></h1>
+            <h3>Je suis un Développeur Front-end.</h3>
+            <div class="newslatter">
+                <form>
+                <input type="email" id="mail" placeholder="Entrer votre email">
+                <input type="submit" name="submit" value="Lets Start">
+                </form>
+            </div>
+        </div>
+</div>
+<!--About-->
+<section>
+    <div class="main">
+        <img src="about.jpg" alt="">
+        <div class="about-text">
+            <h2>A propos de nous !</h2>
+            <h5>Developpeur , Designer <span>& Technicien en Mainténance Informatique. </span></h5>
+            <p>Je suis un développeur front-end, je peut rendre un site très clair et le designer.
+                je peut rendre également un site web très dynamique et plus intéractive avec des animations. </p>
+            <button class="button" type="button">Nous joindre !</button>
+        </div>
+    </div>
+</section>
+<!--tableau-->
+    <div class="ti-para">
+            
+        
+        <h1>Je suis <span>un titre.</span></h1>
+        <p>Je suis <span>Un paragraphe.</span></p>
+    </div>
+    
+    <div class="container-2">
+        <table border="2">
+                <caption style="text-align:center; background-color: green; color: #101010;">Voici un <span>Tableau</span>
+                </caption>
+            
+            <caption>Matières</caption>
+            <tr>
+                <th>Horraire</th>
+                <th>Web Devop</th>
+                <th>Design</th>
+                
+            </tr>
+            <tr>
+                <td>08h-10h</td>
+                <td>Lundi</td>
+                <td>Mardi</td>
+                
+            </tr>
+            <tr>
+                <td>15h-17h</td>
+                <td>Mercredi</td>
+                <td>Jeudi</td>
+            </tr>
+        </table>
+        
+    </div>
+    <div class="box1">
+        <div class="ordoner">
+            <ol> <strong>Une Liste Ordonner. </strong>
+            
+                <li>Une liste numéroter </li>
+                <li>Est une liste qui commence de 1 jusqu'à un nombre determiner</li>
+            
+            </ol>
+        </div>
+        <div class="non-ordonner">
+            <ul> <strong> Une liste non Ordonner. </strong>
+                <li>Est une liste qui se commence par un point.</li>
+                <li>Alors cette liste n'est donc pas numéroter.</li>
+            </ul>
+        </div>
+        
+    </div>
+
+<!--Nos service-->
+    <div class="service">
+        <div class="title">
+            <h2>Nos Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Développement Wed</h5>
+                <div class="pra">
+                    <p>Tous les site web dévrais être construit pour deux but: Premièrement, il a besoin d'être sur toutes les platforms. Deuxièmement, il bésoin d'être rapide! . </p>
+                    <p style="text-align:center;">
+                        <a class="button" href=""> Plus details</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user"></i>
+                <h5>Développement Wed</h5>
+                <div class="pra">
+                    <p>Tous les site web dévrais être construit pour deux but: Premièrement, il a besoin d'être sur toutes les platforms. Deuxièmement, il bésoin d'être rapide! . </p>
+                    <p style="text-align:center;">
+                        <a class="button" href=""> Plus details</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-bell"></i>
+                <h5>Développement Wed</h5>
+                <div class="pra">
+                    <p>Tous les site web dévrais être construit pour deux but: Premièrement, il a besoin d'être sur toutes les platforms. Deuxièmement, il bésoin d'être rapide! . </p>
+                    <p style="text-align:center;">
+                        <a class="button" href=""> Plus details</a>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
